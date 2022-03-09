@@ -1,4 +1,4 @@
-read: main.c khash_str2str.h
-	 gcc -Wall -g main.c -lhts -o famac
+read: main.c
+	 gcc -Wall -g main.c -lhts -O3 -o famvc
 
-all: famac
+all: famvc
